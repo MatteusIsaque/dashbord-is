@@ -1,0 +1,12 @@
+.main {
+  padding: 60px 5%;
+}
+
+.main h1 {
+  color: var(--white-900);
+  font-weight: 400;
+}
+
+.main{
+  width: 80vw;
+}

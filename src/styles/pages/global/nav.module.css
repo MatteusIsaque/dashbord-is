@@ -1,0 +1,23 @@
+.main {
+  position: absolute;
+  right: 0;
+
+  height: 100vh;
+
+  width: 280px;
+  background-color: var(--black-400);
+}
+
+.main ul {
+  margin-top: 140px;
+}
+
+.main > ul > li {
+  list-style: none;
+  text-align: center;
+
+  padding: 16px 0px;
+
+  background-color: var(--black-400);
+  cursor: pointer;
+}
