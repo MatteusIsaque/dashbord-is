@@ -20,7 +20,7 @@ export function setupAPIClient(ctx = undefined) {
     return response;
   }, (error: AxiosError) => {
     if (error.response.status === 401) {
-      if (error.response.data?.code === 'token.expired') {
+      if (error.response.data === 'token.expired') {
         cookies = parseCookies(ctx);
 
         const { 'isaquesestudios.refreshToken': refreshToken } = cookies;
